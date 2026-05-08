@@ -47,7 +47,13 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "id": "focusguard9@gmail.com"
+            "id": "focusguard9@gmail.com",
+            "data_collection_permissions": {
+                "collects_user_data": false,
+                "required": [
+                    "none"
+                ]
+            }
         }
     }
 }
