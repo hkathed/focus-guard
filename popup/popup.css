@@ -1,0 +1,57 @@
+/* popup/popup.css — styles for the extension settings popup */
+
+body {
+    width: 280px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+        Arial, sans-serif;
+    padding: 16px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+}
+
+.settings {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #555;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 4px rgba(76, 175, 80, 0.2);
+}
+
+#save-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 6px;
+}
+
+#save-btn:hover {
+    background-color: #45a049;
+}
+
+#save-btn:active {
+    background-color: #3e8e41;
+}

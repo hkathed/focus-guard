@@ -1,0 +1,52 @@
+/* content/overlay.css — styles for the full-screen time limit overlay */
+
+#fg-overlay {
+    all: initial !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    z-index: 2147483647 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    font-family: sans-serif !important;
+    color: white !important;
+}
+
+#fg-overlay * {
+    all: revert !important;
+}
+
+#fg-overlay .fg-modal {
+    background: #1a1a1a !important;
+    padding: 40px !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    border: 1px solid #333 !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5) !important;
+}
+
+#fg-overlay button {
+    margin: 10px !important;
+    padding: 12px 24px !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+    border-radius: 6px !important;
+    border: none !important;
+    cursor: pointer !important;
+    min-width: 140px !important;
+}
+
+.fg-btn-close {
+    background-color: #ff4742 !important;
+    color: white !important;
+}
+
+.fg-btn-extend {
+    background-color: #2ecc71 !important;
+    color: white !important;
+}
